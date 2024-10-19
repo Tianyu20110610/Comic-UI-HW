@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Comic Book Homework
+        </title>
+        <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+        
+        <script src="page_controls.js"></script>
+    </head>
+    <body>
+        <a-scene background="color:#0a0a0a">
+            <a-camera wasd-controls-enabled="false"></a-camera>
+        <a-assets>
+            <img id="1" src="assets/1.jpg">
+            <img id="2" src="assets/2.jpg">
+            <img id="3" src="assets/3.png">
+            <img id="4" src="assets/4.png">
+            <img id="5" src="assets/5.jpg">
+            <img id="6" src="assets/6.jpg">
+            <img id="7" src="assets/7.jpg">
+            <img id="8" src="assets/8.jpg">
+            <img id="9" src="assets/9.jpg">
+        </a-assets>
+        <a-entity layer="src:#1; height:3; width:1.9;" page_controls></a-entity>
+        </a-scene>
+    </body>
+</html>
